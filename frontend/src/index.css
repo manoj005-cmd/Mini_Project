@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 18px; /* Increase base font size */
+}
+
+.card {
+  @apply bg-white border border-cardBorder rounded-xl shadow-soft;
+}
+
+.btn {
+  @apply rounded-xl px-4 py-2 font-semibold transition-colors duration-150;
+}
+
+.btn-primary {
+  @apply bg-buttonBg text-white hover:bg-opacity-90;
+}
+
+.btn-outline {
+  @apply border border-cardBorder bg-white hover:bg-gray-100 text-headerText;
+}
+
+.heading {
+  @apply text-[#1F2937] font-semibold;
+}
+
+.subtle {
+  @apply text-subtitleText text-[0.95rem];
+}
+
+
+
+
